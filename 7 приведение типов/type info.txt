@@ -1,0 +1,56 @@
+let n;
+
+// number to string
+n = String(10);
+n = String(10+40);
+n = (40).toString(); - метод, приобразовывающий число к строке
+
+// boolean to string
+n = string(false);
+
+//array to string
+n = string([1, 2, 3]);
+
+// object to string
+n = string({name: 'Pavel'});
+
+n = 30 + '' + 30;
+n = 30 + '' + undefined;
+n = 30 + true;
+n = 30 + false;
+
+
+n = false + undefined
+n = 30 - 'two';
+n = 30 * 'two';
+n = 30 / 'two';
+
+n = number('23');
+n = number(true);
+n = number(false);
+n = number(null);
+n = number('false');
+n = number([1, 2, 3]);
+
+n = parseInt('220');
+n = parseInt('220asdasdasd');
+n = parseInt('asdasd220');
+
+n = parseFloat('99.99px')
+n = parseFloat('px99.99px')
+
+//boolean
+n = Boolean('hi')
+n = Boolean('')
+n = Boolean()
+n = Boolean(100)
+n = Boolean(-100)
+n = Boolean(0)
+n = Boolean(undefined)
+n = Boolean(null)
+n = Boolean({})
+n = Boolean([])
+
+
+console.log(n);
+console.log(typeof n);
